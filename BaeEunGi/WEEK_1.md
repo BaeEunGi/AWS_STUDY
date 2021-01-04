@@ -2,5 +2,6 @@
 
 > **AWS란?**
 
-<img width="384" alt="스크린샷 2021-01-04 오후 6 22 45" src="https://user-images.githubusercontent.com/71021694/103520049-e30b0a80-4eb9-11eb-91db-0f96c300263b.png">
-<img width="383" alt="스크린샷 2021-01-04 오후 6 22 53" src="https://user-images.githubusercontent.com/71021694/103520052-e3a3a100-4eb9-11eb-92d7-696bb0f40bed.png">
+<img width="446" alt="스크린샷 2021-01-04 오후 6 24 26" src="https://user-images.githubusercontent.com/71021694/103520207-206f9800-4eba-11eb-94fe-f41b2162fc3a.png">
+<img width="411" alt="스크린샷 2021-01-04 오후 6 24 35" src="https://user-images.githubusercontent.com/71021694/103520209-21a0c500-4eba-11eb-90d5-fbbefd005508.png">
+
