@@ -7,8 +7,6 @@
 + **IaaS, PaaS, Saas**로 구분한다. 
 
 
-![image](https://user-images.githubusercontent.com/55094745/103619141-8882b480-4f74-11eb-80d8-dad66d4a9340.png)
-
   >#### 인프라스트럭처 서비스(IaaS)
   + **물리장치에 가장 가까운 장치, 가장아래의 장치**
   + 가상 서버 또는 스토리지 등의 리소스를 인터넷을 기반으로 제공하는 서비스
@@ -90,7 +88,14 @@
   > **AWS Direct Connect**: VPC에 접속하기 위한 전용선 접속 서비스
   > **Amazon CloudFront**: 콘텐츠 전송 네트워크 서비스, 콘텐츠를 엣지 로케이션이라고 부르는 전세계 거점을 기반으로 전달
   > **Amazon Route 53**: 도메인 이름 시스템 
-  
+  > **SQS**: 메시지 큐 서비스(메시지의 가용성, 확장성, 큐 시스템의 신뢰성)
+  > **SES**: 메일 전송 서비스
+  > **IAM**: 계정 관리 서비스
+  > **AWS CloudTrail**: AWS API 호출을 기록하는 로깅서비스
+  > **Amazon CloudWatch**: AWS의 리소스 또는 애플리케이션 모니터링 서비스
+  > **AWS Elastic Beanstalk**: 웹 애플리케이션 서버 PaaS, 서버를 구축하지 않고도 플랫폼 사용가능
+  > **AWS CloudFormation**: AWS 환경 구축 자동화 
+  > ///등등 여러 서비스 계속 추가중
 
 
 
