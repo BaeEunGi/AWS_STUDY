@@ -20,5 +20,5 @@
 
 >--------------------------------- **하드웨어 리소스**---------------------------------
 <img width="469" alt="스크린샷 2021-01-05 오전 9 55 04" src="https://user-images.githubusercontent.com/71021694/103594665-b1875300-4f3c-11eb-9376-dd12931dde96.png">
-<img width="472" alt="스크린샷 2021-01-05 오전 9 55 11" src="https://user-images.githubusercontent.com/71021694/103594670-b2b88000-4f3c-11eb-9939-5d86aa39c244.png">
+<img width="478" alt="스크린샷 2021-01-05 오전 10 07 54" src="https://user-images.githubusercontent.com/71021694/103595085-e6e07080-4f3d-11eb-89a2-19d344d003b1.png">
 <img width="478" alt="스크린샷 2021-01-05 오전 9 55 18" src="https://user-images.githubusercontent.com/71021694/103594672-b3e9ad00-4f3c-11eb-89e6-87be46cfd3e0.png">
