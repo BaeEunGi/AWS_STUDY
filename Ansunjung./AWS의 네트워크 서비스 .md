@@ -22,5 +22,15 @@
 ## Amazon Virtual Private Cloud
 > **vpc**: 프라이빗 네트워크를 구성할 수 있게 해주는 서비스
 
+### Direct Connect
++ 데이터 센터 또는 오피스의 네트워크와 AWS를 전용선으로 접속할 수 있게 해주는 서비스
++ 안전되고 빠른 통신 환경이 필요한 경우 사용(AWS, Onpremise 혼용시)
 
+### EC2-Classic과 EC2-VPC
++ **EC2-Classic**(옛날 버전) - 인스턴스(EC2)를 가동하면 글로벌 ip주소와 dns호스트 이름이 자동적으로 부여되는 구조
++ **EC2-VPC**(현재 버전) - VPC환경에서 인스턴스를 기동하는 것(보안상)
+> 지금은 EC2-Classic은 사용하지 않는다. 
+
+
+## Amazon Route 53
 
