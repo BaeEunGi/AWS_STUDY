@@ -20,3 +20,5 @@ AWS 패턴별 구축 운용
 
 **AWS 사용**
 + [AWS 사용 준비](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-1%20aws%20%EC%82%AC%EC%9A%A9%20%EC%A4%80%EB%B9%84.md)
++ [AWS CLI](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-2%20AWS%20CLI.md)
++ [AWS SDK](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-3%20AWS%20SDK.md)
