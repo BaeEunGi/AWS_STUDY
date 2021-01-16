@@ -17,5 +17,6 @@ AWS 패턴별 구축 운용
 + [애플리케이션 기반](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/1-4%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B8%B0%EB%B0%98.md)
 + [AWS의 애플리케이션 서비스](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/1-5%20AWS%EC%9D%98%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%84%9C%EB%B9%84%EC%8A%A4.md)
 + [AWS 사용 비용](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/1-6%20AWS%20%EC%82%AC%EC%9A%A9%20%EB%B9%84%EC%9A%A9.md)
+
 **AWS 사용**
 + [AWS 사용 준비](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-1%20aws%20%EC%82%AC%EC%9A%A9%20%EC%A4%80%EB%B9%84.md)
