@@ -36,3 +36,20 @@
 
 `$aws ec2 modify-vpc-attribute --vpc-id vpc-*/*/* --enable-dns-hostnames`
 
+
+### Subnet 생성
++ subnet이란 큰 네트워크를 여러 개의 작은 네트워크로 분할해서 관리할 때의 관리 단위가 되는 네트워크를 나타냄
++ vpc -> subnets -> create subnet
+
+<img src ="https://user-images.githubusercontent.com/55094745/104906737-728ae000-59c7-11eb-97d2-b1778b667320.png" width ="40%"></img>
+> ELB를 사용하려면 28로 생성하면 안됨, 최소 24이상의 네트워크 범위로 설정해야함
+
+<img src = "https://user-images.githubusercontent.com/55094745/104907131-f1801880-59c7-11eb-9dce-a7f010251973.png" width = "30%></img>
+> auto-assign public ip를 yes라고 설정하면 자동적으로 퍼블릭 ip주소를 할당해준다. 
+
+
+### AWS CLI로 subnet 생성
+`$aws ec2 create-subnet --vpc-id vpc-*/*/* --availability-zone ap-northeast-1a --cidr-block 10.0.0.0/24`
+                                                                                                                            
+                                                                                                                            
+                                                                                                                  
