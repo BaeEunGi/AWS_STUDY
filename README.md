@@ -8,6 +8,7 @@ AWS 패턴별 구축 운용
 + [애플리케이션 기반](https://github.com/sunjungAn/AWS_study/blob/master/Ansunjung./%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B8%B0%EB%B0%98.md)
 
 + [리전과 가용영역](https://github.com/sunjungAn/AWS_study/blob/master/Ansunjung./%EB%A6%AC%EC%A0%84%EA%B3%BC%20%EA%B0%80%EC%9A%A9%EC%98%81%EC%97%AD.md)
++ [https://github.com/sunjungAn/AWS_study/blob/master/Ansunjung./VPC.md
 + [EC2]()
 ---------------------------------------------------------------------------------------------------------------------
 
