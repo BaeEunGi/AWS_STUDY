@@ -51,5 +51,29 @@
 ### AWS CLI로 subnet 생성
 `$aws ec2 create-subnet --vpc-id vpc-*/*/* --availability-zone ap-northeast-1a --cidr-block 10.0.0.0/24`
                                                                                                                             
-                                                                                                                            
-                                                                                                                  
+                                                                                      
+### route table 생성
++ 해당 subnet 내부에서 가동하는 ec2 인스턴스 네트워크 라우팅을 제한한다.
++ vpc->route tables -> create route table
+
+### AWS CLI로 Route Table생성
+`$aws ec2 create-route-table --vpc-id vpc-*/*/*`
+
+### Subnet과 Route Table 연결
+
++ 생성된 subnet은 하나의 생성된 route table과 연결되어야함
+
++ 연결 순서
+> + subnet 연결을 선택
+
+<img src = "https://user-images.githubusercontent.com/55094745/104908264-8f281780-59c9-11eb-9a84-2e9c9e0d1e75.png" width ="40%"></img>
+> + subnet 연결 편집 선택
+
+<img src = "https://user-images.githubusercontent.com/55094745/104908377-b979d500-59c9-11eb-9f2c-ded19fe4519f.png" width = "40%"></img>
+> + subnet을 선택하고 저장
+
+
+### AWS CLI로 연결
+`aws ec2 associate-route-table --route-table-id rtb-*/*/* --subnet-id subnet-*/*/*`
+
+
