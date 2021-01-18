@@ -49,7 +49,7 @@
 
 
 ### AWS CLI로 subnet 생성
-`$aws ec2 create-subnet --vpc-id vpc-*/*/* --availability-zone ap-northeast-1a --cidr-block 10.0.0.0/24`
+`$aws ㅁec2 create-subnet --vpc-id vpc-*/*/* --availability-zone ap-northeast-1a --cidr-block 10.0.0.0/24`
                                                                                                                             
                                                                                       
 ### route table 생성
@@ -75,5 +75,30 @@
 
 ### AWS CLI로 연결
 `aws ec2 associate-route-table --route-table-id rtb-*/*/* --subnet-id subnet-*/*/*`
+
+
+
+### Internet Gateway 생성
++ vpc 네트워크 내부에서 가동하는 ec2인스턴스가 인터넷을 통해 외부와 통신할 때 필요
++ 생성한 internet gateway는 route table의 타깃(대상)으로 사용함
++ vpc -> internet gateway -> create internet gateway
+
+<img src = "https://user-images.githubusercontent.com/55094745/104909670-8d5f5380-59cb-11eb-843b-a19b6d885eec.png" width = "40%"></img>
+<img src = "https://user-images.githubusercontent.com/55094745/104909750-aa942200-59cb-11eb-9f7b-4b4df32e9b32.png" width = "30%"></img> 
+> 연결 후에 detached에서 attached로 바뀜
+
+### AWS CLI로 Internet Gateway 생성
+
+`aws ec2 create-internet-gateway`
+
+`aws ec2 attach-internet-gateway --internet-gateway-id igw-*/*/* --vpc-id vpc-*/*/*`
+
+
+### Internet Gateway를 라우팅 대상으로 지정
+
+> + route table목록에 이전에 생성한 route table을 선택하고, routes 탭을 선택한다.
+
+<img src = "https://user-images.githubusercontent.com/55094745/104910146-3dcd5780-59cc-11eb-9897-6558b326a9d0.png" width = "30%"></img>
+> 이때 주소를 0.0.0.0/0으로 설정하면 모든 주소와 매치하게 됨
 
 
