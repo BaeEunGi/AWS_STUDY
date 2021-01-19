@@ -28,3 +28,5 @@ AWS 패턴별 구축 운용
 + [AWS 사용 준비](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-1%20aws%20%EC%82%AC%EC%9A%A9%20%EC%A4%80%EB%B9%84.md)
 + [AWS CLI](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-2%20AWS%20CLI.md)
 + [AWS SDK](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-3%20AWS%20SDK.md)
++ [VPC 네트워크 생성](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-4%20VPC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%83%9D%EC%84%B1.md)
++ [EC2 사용](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-5%20%EA%B0%80%EC%83%81%20%EC%BB%B4%ED%93%A8%ED%84%B0(EC2)%20%EC%82%AC%EC%9A%A9.md)
