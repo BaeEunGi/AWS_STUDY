@@ -46,3 +46,12 @@
 
 **--query : 실행 결과를 압축해서 보여줌**
 
++ 아래와 같이 모든 항목을 출력할 수 있다. 
+
+<img src = "https://user-images.githubusercontent.com/55094745/104982952-19ff2580-5a4f-11eb-8b1e-bffd9ed96625.png" width = "60%"></img>
+
++ 아래와 같이 출력데이터(형식)를 지정할 수 있다.
+
+<img src = "https://user-images.githubusercontent.com/55094745/104983183-9d207b80-5a4f-11eb-9998-97f87fdac1ef.png" width = "60%"></img>
+
+
