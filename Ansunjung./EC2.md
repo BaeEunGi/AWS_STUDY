@@ -24,3 +24,23 @@
   
   --public-key-material ${impkey}*
 ```
+
+
+## Security Group 생성
++ AWS의 방화벽
++ EC2 -> Security Groups -> Create security group
+
+<img src ="https://user-images.githubusercontent.com/55094745/105053767-aa238600-5ab4-11eb-91d3-f7db87ead476.png" width ="50%"></img>
+
+### security group 규칙 설정
++ EC2 인스턴스에 SSH로 로그인할 수 있도록 inbound를 다음과 같이 설정한다. 
+
+<img src ="https://user-images.githubusercontent.com/55094745/105054744-ae03d800-5ab5-11eb-8ee2-7dad094e34a2.png" width ="50%"></img>
+
+<img src ="https://user-images.githubusercontent.com/55094745/105055090-09ce6100-5ab6-11eb-870d-fbdd20db7e10.png" width ="%50"></img>
+> inbound는 현재 보안 그룹에서 어떤 연결을 허가하는지 설정하는 것
+
++ 유형 : 어떤 종류의 통신인지 설정 SSH,HTTP 등등 (특수한 통신은 custom~으로 설정)
++ protocol/port range :  TCP, UDP, ICMP(transport layer) 등의 프로토콜 설정, port range는 0~65535범위의 포트를 지정
++ source : 허가할 연결 대상
+
