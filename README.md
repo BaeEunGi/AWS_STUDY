@@ -30,3 +30,8 @@ AWS 패턴별 구축 운용
 + [AWS SDK](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-3%20AWS%20SDK.md)
 + [VPC 네트워크 생성](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-4%20VPC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%83%9D%EC%84%B1.md)
 + [EC2 사용](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-5%20%EA%B0%80%EC%83%81%20%EC%BB%B4%ED%93%A8%ED%84%B0(EC2)%20%EC%82%AC%EC%9A%A9.md)
++ [ELB 사용하기](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/2-6%20ELB%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
+
+**패턴에 따른 구축 방법 예**
++ [EC2를 사용한 동적 사이트 구축](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/3-1%20EC2%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%9C%20%EB%8F%99%EC%A0%81%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EA%B5%AC%EC%B6%95.md)
++ [Elastic Beanstalk를 사용한 동적 사이트 구축](https://github.com/sunjungAn/AWS_study/blob/master/Limhyeji/3-2%20Elastic%20Beanstalk%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%9C%20%EB%8F%99%EC%A0%81%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EA%B5%AC%EC%B6%95.md)
