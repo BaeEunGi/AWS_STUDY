@@ -15,7 +15,7 @@ AWS 패턴별 구축 운용
 + [EC2](https://github.com/sunjungAn/AWS_study/blob/master/Ansunjung./EC2.md)
 + [ELB]()
 + [EC2를 사용한 동적 사이트 구축]()
-+ [
++ [Elastic Beanstalk]()
 
 ## Limhyeji
 **AWS의 기본**
